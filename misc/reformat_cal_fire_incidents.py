@@ -20,4 +20,5 @@ wildfire_data['Date'] = wildfire_data['Started'].apply(lambda x: get_date(x))
 #these columns will help us generate the other features
 wildfire_data = wildfire_data[['AcresBurned', 'Counties','Latitude', 'Longitude', 'Date']] 
 
-wildfire_data.to_csv('fire_incidents.csv', index=False, sep=",", header = ['AcresBurned', 'Counties','Latitude', 'Longitude', 'Date'])
+wildfire_data = wildfire_data[wildfire_data['Counties'] not in ['State of Oregon', 'State of Nevada']]
+#wildfire_data.to_csv('fire_incidents.csv', index=False, sep=",", header = ['AcresBurned', 'Counties','Latitude', 'Longitude', 'Date'])
