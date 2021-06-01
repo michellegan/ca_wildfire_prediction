@@ -1,1 +1,48 @@
 ./create_feature_datasets/secret_settings.py
+county_temperatures/Solano-Yuba/Yuba.csv
+county_temperatures/Solano-Yuba/Yolo.csv
+county_temperatures/Solano-Yuba/Ventura.csv
+county_temperatures/Solano-Yuba/Tuolumne.csv
+county_temperatures/Solano-Yuba/Tulare.csv
+county_temperatures/Solano-Yuba/Trinity.csv
+county_temperatures/Solano-Yuba/Tehama.csv
+county_temperatures/Solano-Yuba/Stanislaus.csv
+county_temperatures/Solano-Yuba/Sonoma.csv
+county_temperatures/Solano-Yuba/Solano.csv
+county_temperatures/Sacramento-Siskiyou/Siskiyou.csv
+county_temperatures/Sacramento-Siskiyou/Shasta.csv
+county_temperatures/Sacramento-Siskiyou/Santa Cruz.csv
+county_temperatures/Sacramento-Siskiyou/Santa Clara.csv
+county_temperatures/Sacramento-Siskiyou/Santa Barbara.csv
+county_temperatures/Sacramento-Siskiyou/San Mateo.csv
+county_temperatures/Sacramento-Siskiyou/San Luis Obispo.csv
+county_temperatures/Sacramento-Siskiyou/San Joaquin.csv
+county_temperatures/Sacramento-Siskiyou/San Diego.csv
+county_temperatures/Sacramento-Siskiyou/San Bernardino.csv
+county_temperatures/Sacramento-Siskiyou/San Benito.csv
+county_temperatures/Sacramento-Siskiyou/Sacramento.csv
+county_temperatures/M-R/Riverside.csv
+county_temperatures/M-R/Placer.csv
+county_temperatures/M-R/Orange.csv
+county_temperatures/M-R/Nevada.csv
+county_temperatures/M-R/Napa.csv
+county_temperatures/M-R/Monterey.csv
+county_temperatures/M-R/Mono.csv
+county_temperatures/M-R/Modoc.csv
+county_temperatures/M-R/Merced.csv
+county_temperatures/M-R/Mendocino.csv
+county_temperatures/M-R/Mariposa.csv
+county_temperatures/M-R/Marin.csv
+county_temperatures/M-R/Madera.csv
+county_temperatures/A-L Counties/Los Angeles.csv
+county_temperatures/A-L Counties/Kings.csv
+county_temperatures/A-L Counties/Kern.csv
+county_temperatures/A-L Counties/Inyo.csv
+county_temperatures/A-L Counties/Humboldt.csv
+county_temperatures/A-L Counties/Fresno.csv
+county_temperatures/A-L Counties/El Dorado.csv
+county_temperatures/A-L Counties/Del Norte.csv
+county_temperatures/A-L Counties/Contra Costa.csv
+county_temperatures/A-L Counties/Butte.csv
+county_temperatures/A-L Counties/Alameda.csv
+add_features.py

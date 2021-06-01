@@ -68,3 +68,5 @@ for county in list(counties):
 df = pd.DataFrame.from_dict(d, orient='index', columns=columns)
 df = df[columns]
 df.to_csv ('all_data.csv', index=False, columns=columns, header=columns)
+
+
