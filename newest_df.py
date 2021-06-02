@@ -9,7 +9,7 @@ from decimal import Decimal
 
 #script to generate dataset linking countydate-> population density
 all_data = "./all_data.csv"
-all_data = pd.read_csv(all_data, sep=",", header=0)
+all_data = pd.read_csv(all_data, sep=",",header=0)
 
 county_paths_dict = {
     "alameda": "./county_temperatures/A-L Counties/Alameda.csv",
@@ -68,7 +68,6 @@ all_data['acres_burned'] = all_data['acres_burned']
 all_data = all_data[['county', 'date','fire_occurrence', 'acres_burned']] 
 
 counties_inc = ["Alameda", "Butte", "Contra Costa", "Del Norte", "El Dorado", "Fresno", "Humboldt", "Inyo", "Kern", "Kings", "Los Angeles", "Madera", "Marin", "Mariposa", "Mendocino", "Merced", "Modoc", "Mono", "Monterey", "Napa", "Nevada", "Orange", "Placer", "Riverside", "Sacramento", "San Benito", "San Bernardino", "San Diego", "San Joaquin", "San Luis Obispo", "San Mateo", "Santa Barbara", "Santa Clara", "Santa Cruz", "Shasta", "Siskiyou", "Solano", "Sonoma", "Stanislaus", "Tehama", "Trinity", "Tulare", "Tuolumne", "Ventura", "Yolo", "Yuba"]
-
 all_data = all_data[all_data['county'].isin(counties_inc)]
 
 
@@ -91,38 +90,20 @@ for county in list(counties):
 
     curr_county_file["DATE"] = curr_county_file["DATE"].apply(lambda x: datetime.datetime.strptime(x,"%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d"))
 
-    avg_dp_temp_col = curr_county_file["DailyAverageDewPointTemperature"]
-    avg_db_temp_col = curr_county_file["DailyAverageDryBulbTemperature"]
-    avg_rel_hum_col = curr_county_file["DailyAverageRelativeHumidity"]
-    avg_wb_temp_col = curr_county_file["DailyAverageWetBulbTemperature"]
-    avg_wind_speed_col = curr_county_file["DailyAverageWindSpeed"]
-    precip_col = curr_county_file["DailyPrecipitation"]
-
     all_data_sub_df = all_data[all_data['county'] == county]
-    fire_occ_curr = mean(all_data_sub_df['fire_occurrence'])
-    acres_burned_curr = mean(all_data_sub_df['acres_burned'])
 
     curr_lat = lat_long[lat_long['county_name'] == county]['latitude'].item()
-    print(curr_lat)
     curr_long = lat_long[lat_long['county_name'] == county]['longitude'].item()
-    print(curr_long)
     curr_pop_density = pop_density_df[pop_density_df['county_n'] == county][' pop_density'].item()
-    print(curr_pop_density)
 
     county_file_length = curr_county_file.shape[0]
     all_data_length = all_data.shape[0]
 
-    first_index = curr_county_file.index[curr_county_file['DATE'] == "2013-01-01"].tolist()
-    second_index = curr_county_file.index[curr_county_file['DATE'] == "2013-01-02"].tolist()
-
-    print(first_index)
-    print(second_index)
-    gap = int(second_index[0] - first_index[0])
-
-
-    for i in range(0, county_file_length, gap):
-        curr_date = curr_county_file["DATE"][i]
-
+    sdate = datetime.datetime.strptime('2013-01-01', "%Y-%m-%d")
+    edate = datetime.datetime.strptime('2020-01-01', "%Y-%m-%d")
+    dates = [sdate+timedelta(days=x) for x in range((edate-sdate).days)]
+    for day in dates:
+        curr_date = day.strftime("%Y-%m-%d")
         sub_county_df = curr_county_file[curr_county_file['DATE'] == curr_date]
 
         sub_county_df["HourlyDewPointTemperature"] = (
@@ -163,12 +144,14 @@ for county in list(counties):
 
         precip = sum(sub_county_df["DailyPrecipitation"])
 
-        
-        to_add = [county, curr_date, fire_occ_curr, acres_burned_curr, avg_dp_temp, avg_rel_hum, avg_wb_temp, avg_wind_speed, precip, curr_pop_density, curr_lat, curr_long]
-        d[(county, curr_date)] = to_add
+        all_data_row = all_data_sub_df [all_data_sub_df ['date'] == curr_date]
+        fire_occurrence = all_data_row.iloc[0]['fire_occurrence']
+        acres_burned = all_data_row.iloc[0]['acres_burned']
 
+        to_add = [county, curr_date, fire_occurrence, acres_burned, avg_dp_temp, avg_rel_hum, avg_wb_temp, avg_wind_speed, precip, curr_pop_density, curr_lat, curr_long]
+        d[(county, curr_date)] = to_add
 
 df = pd.DataFrame.from_dict(d, orient='index', columns=columns)
 df = df[columns]
-df.to_csv ('all_data_newest.csv', index=False, columns=columns, header=columns)
+df.to_csv ('all_features_final.csv', index=False, columns=columns, header=columns)
 
