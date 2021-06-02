@@ -67,7 +67,8 @@ all_data['acres_burned'] = all_data['acres_burned']
 
 all_data = all_data[['county', 'date','fire_occurrence', 'acres_burned']] 
 
-counties_inc = ["Alameda", "Butte", "Contra Costa", "Del Norte", "El Dorado", "Fresno", "Humboldt", "Inyo", "Kern", "Kings", "Los Angeles", "Madera", "Marin", "Mariposa", "Mendocino", "Merced", "Modoc", "Mono", "Monterey", "Napa", "Nevada", "Orange", "Placer", "Riverside", "Sacramento", "San Benito", "San Bernardino", "San Diego", "San Joaquin", "San Luis Obispo", "San Mateo", "Santa Barbara", "Santa Clara", "Santa Cruz", "Shasta", "Siskiyou", "Solano", "Sonoma", "Stanislaus", "Tehama", "Trinity", "Tulare", "Tuolumne", "Ventura", "Yolo", "Yuba"]
+#counties_inc = ["Alameda", "Butte", "Contra Costa", "Del Norte", "El Dorado", "Fresno", "Humboldt", "Inyo", "Kern", "Kings", "Los Angeles", "Madera", "Marin", "Mariposa", "Mendocino", "Merced", "Modoc", "Mono", "Monterey", "Napa", "Nevada", "Orange", "Placer", "Riverside", "Sacramento", "San Benito", "San Bernardino", "San Diego", "San Joaquin", "San Luis Obispo", "San Mateo", "Santa Barbara", "Santa Clara", "Santa Cruz", "Shasta", "Siskiyou", "Solano", "Sonoma", "Stanislaus", "Tehama", "Trinity", "Tulare", "Tuolumne", "Ventura", "Yolo", "Yuba"]
+counties_inc = ['Alameda']
 all_data = all_data[all_data['county'].isin(counties_inc)]
 
 
@@ -153,5 +154,5 @@ for county in list(counties):
 
 df = pd.DataFrame.from_dict(d, orient='index', columns=columns)
 df = df[columns]
-df.to_csv ('all_features_final.csv', index=False, columns=columns, header=columns)
+df.to_csv ('alameda_test.csv', index=False, columns=columns, header=columns)
 
