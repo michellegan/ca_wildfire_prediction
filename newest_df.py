@@ -131,10 +131,25 @@ for county in list(counties):
                     .fillna(0)
             )
 
-        avg_dp_temp = mean(sub_county_df["HourlyDewPointTemperature"])
-        avg_rel_hum = mean(sub_county_df["HourlyRelativeHumidity"])
-        avg_wb_temp = mean(sub_county_df["HourlyWetBulbTemperature"])
-        avg_wind_speed = mean(sub_county_df["HourlyWindSpeed"])
+        try:
+            avg_dp_temp = mean(sub_county_df["HourlyDewPointTemperature"])
+        except:
+            avg_dp_temp = 0
+
+        try:
+            avg_rel_hum = mean(sub_county_df["HourlyRelativeHumidity"])
+        except:
+            avg_rel_hum = 0
+
+        try:
+            avg_wb_temp = mean(sub_county_df["HourlyWetBulbTemperature"])
+        except:
+            avg_wb_temp = 0
+        
+        try:
+            avg_wind_speed = mean(sub_county_df["HourlyWindSpeed"])
+        except:
+            avg_wind_speed = 0
 
         sub_county_df["DailyPrecipitation"] = (
             pd.to_numeric(sub_county_df["DailyPrecipitation"],
