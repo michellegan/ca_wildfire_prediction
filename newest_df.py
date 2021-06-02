@@ -89,7 +89,8 @@ for county in list(counties):
     formatted_county = (county.lower())
     curr_county_file = pd.read_csv(county_paths_dict[formatted_county], sep=",", header=0)
 
-    date_col = curr_county_file["DATE"]
+    curr_county_file["DATE"] = curr_county_file["DATE"].apply(lambda x: datetime.datetime.strptime(x,"%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d"))
+
     avg_dp_temp_col = curr_county_file["DailyAverageDewPointTemperature"]
     avg_db_temp_col = curr_county_file["DailyAverageDryBulbTemperature"]
     avg_rel_hum_col = curr_county_file["DailyAverageRelativeHumidity"]
@@ -111,16 +112,16 @@ for county in list(counties):
     county_file_length = curr_county_file.shape[0]
     all_data_length = all_data.shape[0]
 
-    first_date = curr_county_file['DATE'][0]
-    second_date = first_date.replace('-01-01', '-01-02')
+    first_index = curr_county_file.index[curr_county_file['DATE'] == "2013-01-01"].tolist()
+    second_index = curr_county_file.index[curr_county_file['DATE'] == "2013-01-02"].tolist()
 
-    first_index = curr_county_file.index[curr_county_file['DATE'] == first_date].tolist()
-    second_index = curr_county_file.index[curr_county_file['DATE'] == second_date].tolist()
+    print(first_index)
+    print(second_index)
     gap = int(second_index[0] - first_index[0])
 
 
     for i in range(0, county_file_length, gap):
-        curr_date = date_col[i]
+        curr_date = curr_county_file["DATE"][i]
 
         sub_county_df = curr_county_file[curr_county_file['DATE'] == curr_date]
 
