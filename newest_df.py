@@ -7,7 +7,6 @@ import math
 from decimal import Decimal
 
 
-
 #script to generate dataset linking countydate-> population density
 all_data = "./all_data.csv"
 all_data = pd.read_csv(all_data, sep=",", header=0)
@@ -70,23 +69,23 @@ all_data = all_data[['county', 'date','fire_occurrence', 'acres_burned']]
 
 counties_inc = ["Alameda", "Butte", "Contra Costa", "Del Norte", "El Dorado", "Fresno", "Humboldt", "Inyo", "Kern", "Kings", "Los Angeles", "Madera", "Marin", "Mariposa", "Mendocino", "Merced", "Modoc", "Mono", "Monterey", "Napa", "Nevada", "Orange", "Placer", "Riverside", "Sacramento", "San Benito", "San Bernardino", "San Diego", "San Joaquin", "San Luis Obispo", "San Mateo", "Santa Barbara", "Santa Clara", "Santa Cruz", "Shasta", "Siskiyou", "Solano", "Sonoma", "Stanislaus", "Tehama", "Trinity", "Tulare", "Tuolumne", "Ventura", "Yolo", "Yuba"]
 
-all_data = all_data[all_data.county.isin(counties_inc)]
+all_data = all_data[all_data['county'].isin(counties_inc)]
 
 
 #prepare dataframe
-columns = ['county', 'date', 'fire_occurrence', 'acres_burned', "avg_dp_temp", "avg_db_temp", "avg_rel_hum", "avg_wb_temp", "avg_wind_speed", "precip", "pop_density", "latitude", "longitude"]
+columns = ['county', 'date', 'fire_occurrence', 'acres_burned', "avg_dp_temp", "avg_rel_hum", "avg_wb_temp", "avg_wind_speed", "precip", "pop_density", "latitude", "longitude"]
 d = {}
-
 
 counties = set(all_data['county'].tolist())
 
 dates = all_data['date']
 
-pop_density = pd.read_csv("./county_pop_density.csv")
+pop_density_df = pd.read_csv("./county_pop_density.csv")
 lat_long = pd.read_csv("./county_lat_long.csv")
 
 
 for county in list(counties):
+    print("county", county)
     formatted_county = (county.lower())
     curr_county_file = pd.read_csv(county_paths_dict[formatted_county], sep=",", header=0)
 
@@ -102,10 +101,13 @@ for county in list(counties):
     fire_occ_curr = mean(all_data_sub_df['fire_occurrence'])
     acres_burned_curr = mean(all_data_sub_df['acres_burned'])
 
-    curr_pop_density = pop_density.loc[pop_density['county'] == county, 'pop_density'].iloc[0]
-    curr_lat = lat_long.loc[lat_long['county_name'] == county, 'latitude'].iloc[0]
-    curr_long = lat_long.loc[lat_long['county_name'] == county, 'longitude'].iloc[0]
-    
+    curr_lat = lat_long[lat_long['county_name'] == county]['latitude'].item()
+    print(curr_lat)
+    curr_long = lat_long[lat_long['county_name'] == county]['longitude'].item()
+    print(curr_long)
+    curr_pop_density = pop_density_df[pop_density_df['county_n'] == county][' pop_density'].item()
+    print(curr_pop_density)
+
     county_file_length = curr_county_file.shape[0]
     all_data_length = all_data.shape[0]
 
@@ -118,18 +120,21 @@ for county in list(counties):
         avg_rel_hum = mean(sub_county_df["DailyAverageRelativeHumidity"])
         avg_wb_temp = mean(sub_county_df["DailyAverageWetBulbTemperature"])
         avg_wind_speed = mean(sub_county_df["DailyAverageWindSpeed"])
+
+        sub_county_df["DailyPrecipitation"] = (
+            pd.to_numeric(sub_county_df["DailyPrecipitation"],
+                  errors='coerce')
+                    .fillna(0)
+            )
+
+        precip = sum(sub_county_df["DailyPrecipitation"])
+
         
-        avg_db_temp_list =[Decimal(n) for n in sub_county_df["DailyAverageDryBulbTemperature"] if (math.isnan(float(n)) == False)]
-        avg_db_temp = [mean(avg_db_temp_list) if len(avg_db_temp_list) > 0 else None]
-        
-        precip_list =[Decimal(n) for n in sub_county_df["DailyPrecipitation"] if (math.isnan(float(n)) == False)]
-        precip = [mean(precip_list) if len(precip_list) > 0 else None]    
-        
-        to_add = [county, curr_date, fire_occ_curr, acres_burned_curr, avg_dp_temp, avg_db_temp, avg_rel_hum, avg_wb_temp, avg_wind_speed, precip, curr_pop_density, curr_lat, curr_long]
+        to_add = [county, curr_date, fire_occ_curr, acres_burned_curr, avg_dp_temp, avg_rel_hum, avg_wb_temp, avg_wind_speed, precip, curr_pop_density, curr_lat, curr_long]
         d[(county, curr_date)] = to_add
 
 
 df = pd.DataFrame.from_dict(d, orient='index', columns=columns)
 df = df[columns]
-df.to_csv ('all_data_w_counties.csv', index=False, columns=columns, header=columns)
+df.to_csv ('all_data_updated.csv', index=False, columns=columns, header=columns)
 

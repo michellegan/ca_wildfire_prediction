@@ -1,4 +1,4 @@
-date,county,fire_occurrence,acres_burned
+county,date,fire_occurrence,acres_burned
 Mendocino,2013-01-01,0,0
 Mendocino,2013-01-02,0,0
 Mendocino,2013-01-03,0,0
