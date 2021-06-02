@@ -111,15 +111,48 @@ for county in list(counties):
     county_file_length = curr_county_file.shape[0]
     all_data_length = all_data.shape[0]
 
-    for i in range(0, county_file_length, 25):
+    first_date = curr_county_file['DATE'][0]
+    second_date = first_date.replace('-01-01', '-01-02')
+
+    first_index = curr_county_file.index[curr_county_file['DATE'] == first_date].tolist()
+    second_index = curr_county_file.index[curr_county_file['DATE'] == second_date].tolist()
+    gap = int(second_index[0] - first_index[0])
+
+
+    for i in range(0, county_file_length, gap):
         curr_date = date_col[i]
 
         sub_county_df = curr_county_file[curr_county_file['DATE'] == curr_date]
 
-        avg_dp_temp = mean(sub_county_df["DailyAverageDewPointTemperature"])
-        avg_rel_hum = mean(sub_county_df["DailyAverageRelativeHumidity"])
-        avg_wb_temp = mean(sub_county_df["DailyAverageWetBulbTemperature"])
-        avg_wind_speed = mean(sub_county_df["DailyAverageWindSpeed"])
+        sub_county_df["HourlyDewPointTemperature"] = (
+            pd.to_numeric(sub_county_df["HourlyDewPointTemperature"],
+                  errors='coerce')
+                    .fillna(0)
+            )
+
+        sub_county_df["HourlyWetBulbTemperature"] = (
+            pd.to_numeric(sub_county_df["HourlyWetBulbTemperature"],
+                  errors='coerce')
+                    .fillna(0)
+            )
+
+        
+        sub_county_df["HourlyWindSpeed"] = (
+            pd.to_numeric(sub_county_df["HourlyWindSpeed"],
+                  errors='coerce')
+                    .fillna(0)
+            )
+
+        sub_county_df["HourlyRelativeHumidity"] = (
+            pd.to_numeric(sub_county_df["HourlyRelativeHumidity"],
+                  errors='coerce')
+                    .fillna(0)
+            )
+
+        avg_dp_temp = mean(sub_county_df["HourlyDewPointTemperature"])
+        avg_rel_hum = mean(sub_county_df["HourlyRelativeHumidity"])
+        avg_wb_temp = mean(sub_county_df["HourlyWetBulbTemperature"])
+        avg_wind_speed = mean(sub_county_df["HourlyWindSpeed"])
 
         sub_county_df["DailyPrecipitation"] = (
             pd.to_numeric(sub_county_df["DailyPrecipitation"],
@@ -136,5 +169,5 @@ for county in list(counties):
 
 df = pd.DataFrame.from_dict(d, orient='index', columns=columns)
 df = df[columns]
-df.to_csv ('all_data_updated.csv', index=False, columns=columns, header=columns)
+df.to_csv ('all_data_newest.csv', index=False, columns=columns, header=columns)
 
