@@ -1,4 +1,3 @@
-./create_feature_datasets/secret_settings.py
 county_temperatures/Solano-Yuba/Yuba.csv
 county_temperatures/Solano-Yuba/Yolo.csv
 county_temperatures/Solano-Yuba/Ventura.csv
