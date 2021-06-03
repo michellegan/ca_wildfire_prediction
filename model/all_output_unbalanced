@@ -1,0 +1,30 @@
+Data not large enough to fit desired sample size. Using full dataset instead...
+Classification score with a depth of 5 is 0.988031067060801
+Accuracy and performance of Decision Tree Classifier with 5 layers:
+[[34092     6]
+ [  407     1]]
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     34098
+           1       0.14      0.00      0.00       408
+
+    accuracy                           0.99     34506
+   macro avg       0.57      0.50      0.50     34506
+weighted avg       0.98      0.99      0.98     34506
+
+0.988031067060801
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+[[34088    10]
+ [  407     1]]
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     34098
+           1       0.09      0.00      0.00       408
+
+    accuracy                           0.99     34506
+   macro avg       0.54      0.50      0.50     34506
+weighted avg       0.98      0.99      0.98     34506
+
+0.9879151451921405
+bagging
+Mean ROC AUC: 0.603

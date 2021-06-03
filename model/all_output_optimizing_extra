@@ -1,0 +1,2270 @@
+num_high 1250
+num_low 1250
+num_estimators 20 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7786666666666666
+[[283  92]
+ [ 74 301]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77       375
+           1       0.77      0.80      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 20 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7733333333333333
+[[272 103]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       375
+           1       0.75      0.82      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.78      0.77      0.77       750
+weighted avg       0.78      0.77      0.77       750
+
+num_estimators 20 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[275 100]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 20 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[271 104]
+ [ 73 302]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.72      0.75       375
+           1       0.74      0.81      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.77      0.76      0.76       750
+weighted avg       0.77      0.76      0.76       750
+
+num_estimators 20 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[275 100]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 20 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[275 100]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 20 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.772
+[[274 101]
+ [ 70 305]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       375
+           1       0.75      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 20 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7733333333333333
+[[273 102]
+ [ 68 307]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       375
+           1       0.75      0.82      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.78      0.77      0.77       750
+weighted avg       0.78      0.77      0.77       750
+
+num_estimators 20 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[275 100]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 20 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7413333333333333
+[[277  98]
+ [ 96 279]]
+              precision    recall  f1-score   support
+
+           0       0.74      0.74      0.74       375
+           1       0.74      0.74      0.74       375
+
+    accuracy                           0.74       750
+   macro avg       0.74      0.74      0.74       750
+weighted avg       0.74      0.74      0.74       750
+
+num_estimators 20 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.752
+[[275 100]
+ [ 86 289]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.73      0.75       375
+           1       0.74      0.77      0.76       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 20 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[280  95]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 20 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7466666666666667
+[[273 102]
+ [ 88 287]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.73      0.74       375
+           1       0.74      0.77      0.75       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 20 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7573333333333333
+[[276  99]
+ [ 83 292]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.74      0.75       375
+           1       0.75      0.78      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 20 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[280  95]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 20 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7733333333333333
+[[283  92]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.77       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 20 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7626666666666667
+[[272 103]
+ [ 75 300]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.73      0.75       375
+           1       0.74      0.80      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 20 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[280  95]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 20 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.74
+[[280  95]
+ [100 275]]
+              precision    recall  f1-score   support
+
+           0       0.74      0.75      0.74       375
+           1       0.74      0.73      0.74       375
+
+    accuracy                           0.74       750
+   macro avg       0.74      0.74      0.74       750
+weighted avg       0.74      0.74      0.74       750
+
+num_estimators 20 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7546666666666667
+[[276  99]
+ [ 85 290]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.75       750
+   macro avg       0.76      0.75      0.75       750
+weighted avg       0.76      0.75      0.75       750
+
+num_estimators 20 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7906666666666666
+[[281  94]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 20 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7586666666666667
+[[275 100]
+ [ 81 294]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.73      0.75       375
+           1       0.75      0.78      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 20 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7586666666666667
+[[275 100]
+ [ 81 294]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.73      0.75       375
+           1       0.75      0.78      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 20 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7906666666666666
+[[281  94]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 20 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7746666666666666
+[[285  90]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.76      0.77       375
+           1       0.77      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 20 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7613333333333333
+[[273 102]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.73      0.75       375
+           1       0.74      0.79      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 20 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7906666666666666
+[[281  94]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.75      0.78       375
+           1       0.77      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7733333333333333
+[[278  97]
+ [ 73 302]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[275 100]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 50 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[278  97]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.78       750
+weighted avg       0.79      0.79      0.78       750
+
+num_estimators 50 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7746666666666666
+[[273 102]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       375
+           1       0.75      0.82      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.78      0.77      0.77       750
+weighted avg       0.78      0.77      0.77       750
+
+num_estimators 50 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[277  98]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[278  97]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.78       750
+weighted avg       0.79      0.79      0.78       750
+
+num_estimators 50 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[277  98]
+ [ 66 309]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 50 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[275 100]
+ [ 60 315]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[278  97]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.78       750
+weighted avg       0.79      0.79      0.78       750
+
+num_estimators 50 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7586666666666667
+[[283  92]
+ [ 89 286]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.75      0.76       375
+           1       0.76      0.76      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 50 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7613333333333333
+[[279  96]
+ [ 83 292]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.74      0.76       375
+           1       0.75      0.78      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 50 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7493333333333333
+[[276  99]
+ [ 89 286]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.74      0.76      0.75       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 50 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7573333333333333
+[[280  95]
+ [ 87 288]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.75      0.75       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 50 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[278  97]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[279  96]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.76
+[[280  95]
+ [ 85 290]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.75      0.76       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 50 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7706666666666667
+[[281  94]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.77       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[278  97]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.76
+[[278  97]
+ [ 83 292]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.74      0.76       375
+           1       0.75      0.78      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 50 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 50 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[280  95]
+ [ 80 295]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[278  97]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 50 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7933333333333333
+[[285  90]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.76      0.79       375
+           1       0.78      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7746666666666666
+[[277  98]
+ [ 71 304]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.74      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.78      0.77      0.77       750
+weighted avg       0.78      0.77      0.77       750
+
+num_estimators 100 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[276  99]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 100 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[276  99]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 100 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[270 105]
+ [ 70 305]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.72      0.76       375
+           1       0.74      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.792
+[[280  95]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.75      0.78       375
+           1       0.77      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[276  99]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 100 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[278  97]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[280  95]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[276  99]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 100 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7493333333333333
+[[275 100]
+ [ 88 287]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.73      0.75       375
+           1       0.74      0.77      0.75       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 100 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[279  96]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7893333333333333
+[[278  97]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[279  96]
+ [ 81 294]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.78      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 100 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7706666666666667
+[[280  95]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.77       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7893333333333333
+[[278  97]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[277  98]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 100 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.776
+[[282  93]
+ [ 75 300]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77       375
+           1       0.76      0.80      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 100 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7893333333333333
+[[278  97]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7586666666666667
+[[278  97]
+ [ 84 291]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.74      0.75       375
+           1       0.75      0.78      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 100 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[279  96]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[278  97]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[280  95]
+ [ 80 295]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[278  97]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[278  97]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 100 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[280  95]
+ [ 80 295]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 100 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.776
+[[282  93]
+ [ 75 300]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.75      0.77       375
+           1       0.76      0.80      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 100 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[278  97]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 200 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.772
+[[273 102]
+ [ 69 306]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       375
+           1       0.75      0.82      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[279  96]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 200 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[272 103]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.75      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[274 101]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.788
+[[276  99]
+ [ 60 315]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.84      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 200 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[272 103]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.75      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[278  97]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 200 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[275 100]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[272 103]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.75      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.756
+[[277  98]
+ [ 85 290]]
+              precision    recall  f1-score   support
+
+           0       0.77      0.74      0.75       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 200 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[277  98]
+ [ 76 299]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.80      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7653333333333333
+[[277  98]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7733333333333333
+[[277  98]
+ [ 72 303]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.772
+[[281  94]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.77       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7773333333333333
+[[280  95]
+ [ 72 303]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.75      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7533333333333333
+[[278  97]
+ [ 88 287]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 200 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[279  96]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[279  96]
+ [ 78 297]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.772
+[[277  98]
+ [ 73 302]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.76       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 200 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7706666666666667
+[[280  95]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.75      0.77       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 200 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7773333333333333
+[[280  95]
+ [ 72 303]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.75      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 200 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[278  97]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[277  98]
+ [ 75 300]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.76       375
+           1       0.75      0.80      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 300 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7866666666666666
+[[277  98]
+ [ 62 313]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78       375
+           1       0.76      0.83      0.80       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 300 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[274 101]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7773333333333333
+[[275 100]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.77       375
+           1       0.75      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[274 101]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[274 101]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[277  98]
+ [ 66 309]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[279  96]
+ [ 65 310]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.78       750
+weighted avg       0.79      0.79      0.78       750
+
+num_estimators 300 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[274 101]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7533333333333333
+[[277  98]
+ [ 87 288]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.75      0.77      0.76       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 300 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[279  96]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 300 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[279  96]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 300 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[274 101]
+ [ 76 299]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.73      0.76       375
+           1       0.75      0.80      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.77      0.76      0.76       750
+weighted avg       0.77      0.76      0.76       750
+
+num_estimators 300 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7626666666666667
+[[276  99]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 300 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7773333333333333
+[[280  95]
+ [ 72 303]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.75      0.77       375
+           1       0.76      0.81      0.78       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7506666666666667
+[[276  99]
+ [ 88 287]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.74      0.77      0.75       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 300 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[279  96]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 300 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[278  97]
+ [ 80 295]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 300 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7653333333333333
+[[276  99]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 300 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.764
+[[277  98]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.76       750
+   macro avg       0.76      0.76      0.76       750
+weighted avg       0.76      0.76      0.76       750
+
+num_estimators 300 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[281  94]
+ [ 71 304]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.75      0.77       375
+           1       0.76      0.81      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 300 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7693333333333333
+[[275 100]
+ [ 73 302]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.73      0.76       375
+           1       0.75      0.81      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 10 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[278  97]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.78       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.78       750
+weighted avg       0.79      0.79      0.78       750
+
+num_estimators 400 max_depth 10 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[273 102]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.75      0.84      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.776
+[[274 101]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.77       375
+           1       0.75      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7813333333333333
+[[275 100]
+ [ 64 311]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[273 102]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.75      0.84      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[275 100]
+ [ 63 312]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.73      0.77       375
+           1       0.76      0.83      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 10 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7853333333333333
+[[280  95]
+ [ 66 309]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.79       750
+   macro avg       0.79      0.79      0.79       750
+weighted avg       0.79      0.79      0.79       750
+
+num_estimators 400 max_depth 10 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7826666666666666
+[[273 102]
+ [ 61 314]]
+              precision    recall  f1-score   support
+
+           0       0.82      0.73      0.77       375
+           1       0.75      0.84      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 20 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7493333333333333
+[[276  99]
+ [ 89 286]]
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75       375
+           1       0.74      0.76      0.75       375
+
+    accuracy                           0.75       750
+   macro avg       0.75      0.75      0.75       750
+weighted avg       0.75      0.75      0.75       750
+
+num_estimators 400 max_depth 20 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[277  98]
+ [ 76 299]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.80      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 20 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 20 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[279  96]
+ [ 79 296]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.76      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 20 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7653333333333333
+[[275 100]
+ [ 76 299]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.73      0.76       375
+           1       0.75      0.80      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 20 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 20 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[277  98]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 20 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[281  94]
+ [ 68 307]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 20 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 30 min_split 2 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.744
+[[272 103]
+ [ 89 286]]
+              precision    recall  f1-score   support
+
+           0       0.75      0.73      0.74       375
+           1       0.74      0.76      0.75       375
+
+    accuracy                           0.74       750
+   macro avg       0.74      0.74      0.74       750
+weighted avg       0.74      0.74      0.74       750
+
+num_estimators 400 max_depth 30 min_split 2 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7706666666666667
+[[279  96]
+ [ 76 299]]
+              precision    recall  f1-score   support
+
+           0       0.79      0.74      0.76       375
+           1       0.76      0.80      0.78       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 30 min_split 2 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 30 min_split 5 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7653333333333333
+[[279  96]
+ [ 80 295]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 30 min_split 5 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.7666666666666667
+[[277  98]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 30 min_split 5 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
+num_estimators 400 max_depth 30 min_split 10 min_leaf 1
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.768
+[[278  97]
+ [ 77 298]]
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76       375
+           1       0.75      0.79      0.77       375
+
+    accuracy                           0.77       750
+   macro avg       0.77      0.77      0.77       750
+weighted avg       0.77      0.77      0.77       750
+
+num_estimators 400 max_depth 30 min_split 10 min_leaf 2
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.784
+[[281  94]
+ [ 68 307]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.75      0.78       375
+           1       0.77      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.79      0.78      0.78       750
+weighted avg       0.79      0.78      0.78       750
+
+num_estimators 400 max_depth 30 min_split 10 min_leaf 5
+Accuracy and performance of Random Forests on non-normalized data with 20 estimators:
+0.78
+[[277  98]
+ [ 67 308]]
+              precision    recall  f1-score   support
+
+           0       0.81      0.74      0.77       375
+           1       0.76      0.82      0.79       375
+
+    accuracy                           0.78       750
+   macro avg       0.78      0.78      0.78       750
+weighted avg       0.78      0.78      0.78       750
+
